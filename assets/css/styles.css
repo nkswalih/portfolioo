@@ -921,6 +921,9 @@ body.light-theme::-webkit-scrollbar {
   .work__filters {
     column-gap: 0.25rem;
   }
+  .cursor {
+    display: none;
+  }
 }
 
 /* for iphone 16 */
@@ -936,6 +939,9 @@ body.light-theme::-webkit-scrollbar {
     display: flex;
     justify-content: center;
   }
+  .cursor {
+    display: none;
+  }
   }
 @media screen and (min-width: 435px) {
   .work__container {
@@ -945,6 +951,9 @@ body.light-theme::-webkit-scrollbar {
 
   .work__img {
     width: 165px;
+  }
+  .cursor {
+    display: none;
   }
 }
 
@@ -1041,6 +1050,9 @@ body.light-theme::-webkit-scrollbar {
     width: 360px;
     margin: 0 auto;
   }
+  .cursor {
+    display: none;
+  }
 }
 
 /* For large devices */
@@ -1077,5 +1089,8 @@ body.light-theme::-webkit-scrollbar {
 
   .home__social::after {
     transform: rotate(90deg) translate(16px, -1px);
+  }
+  .cursor {
+    display: block;
   }
 }
